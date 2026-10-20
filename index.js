@@ -15,7 +15,7 @@ function findMaximum(num1, num2){
     if (num1>num2) {
         return num1
     }
-    else(num2>num1){
+    else{
         return num2
     }
 }
@@ -32,3 +32,6 @@ function isPalindrome(word){
 
     return cleaned === reversed;
 }
+
+let arrayList =[1,2,3,4,5]
+console.log(2 == "2")
